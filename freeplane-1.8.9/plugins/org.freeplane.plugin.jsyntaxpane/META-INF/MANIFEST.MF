@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1604167741844
+Bundle-Activator: org.freeplane.plugin.jsyntaxpane.Activator
+Bundle-ClassPath: .,lib/plugin-1.8.9.jar,lib/jsyntaxpane-0.9.6~r156-7.
+ jar
+Bundle-ManifestVersion: 2
+Bundle-Name: org.freeplane.plugin.jsyntaxpane
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-SymbolicName: org.freeplane.plugin.jsyntaxpane
+Bundle-Vendor: Freeplane Project
+Bundle-Version: 1.8.9
+Created-By: 1.8.0_191 (Oracle Corporation)
+Export-Package: jsyntaxpane;version="1.8.9",jsyntaxpane.lexers;uses:=j
+ syntaxpane;version="1.8.9",jsyntaxpane.syntaxkits;uses:=jsyntaxpane;v
+ ersion="1.8.9",jsyntaxpane.actions;uses:=jsyntaxpane;version="1.8.9"
+Private-Package: org.freeplane.plugin.jsyntaxpane
+Require-Bundle: org.freeplane.core
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.0.0.202001221519
+

@@ -1,0 +1,74 @@
+*org.knopflerfish.framework.readonly=true
+*org.knopflerfish.gosg.jars=reference:file:/home/ivaneh/freeplane-1.8.9/core/
+*org.freeplane.user.dir=/home/ivaneh/freeplane-1.8.9
+*org.freeplane.basedirectory=/home/ivaneh/freeplane-1.8.9
+org.freeplane.globalresourcedir=/home/ivaneh/freeplane-1.8.9/resources
+*java.security.policy=/home/ivaneh/freeplane-1.8.9/freeplane.policy
+*org.osgi.framework.storage=/home/ivaneh/freeplane-1.8.9/fwdir
+Knopflerfish OSGi framework launcher, version <unknown>
+Copyright 2003-2019 Knopflerfish. All Rights Reserved.
+See http://www.knopflerfish.org for more information.
+
+Created Framework: org.knopflerfish.framework, version=8.0.9.
+Background mode.
+Dec 25, 2020 5:54:23 PM org.freeplane.core.util.LogUtils info
+INFO: Loaded properties from bundle://1:1/freeplane.properties
+Dec 25, 2020 5:54:23 PM org.freeplane.core.util.LogUtils info
+INFO: Loaded properties from bundle://1:2/org/freeplane/main/application/
+Dec 25, 2020 5:54:23 PM org.freeplane.core.util.LogUtils info
+INFO: Listening for application instances on socket 41723
+Installed: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.formula (id#2)
+Installed: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.latex (id#3)
+Installed: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.bugreport (id#4)
+Installed: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.jsyntaxpane (id#5)
+Installed: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.script (id#6)
+Installed: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.svg (id#7)
+Installed: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.openmaps (id#8)
+Started: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.formula (id#2)
+Started: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.latex (id#3)
+Started: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.bugreport (id#4)
+Started: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.jsyntaxpane (id#5)
+Started: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.script (id#6)
+Started: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.svg (id#7)
+Started: reference:file:/home/ivaneh/freeplane-1.8.9/plugins/org.freeplane.plugin.openmaps (id#8)
+Dec 25, 2020 5:54:23 PM org.freeplane.core.util.LogUtils info
+INFO: language resources for en found
+Dec 25, 2020 5:54:23 PM org.freeplane.core.util.LogUtils info
+INFO: freeplane_version = 1.8.9; freeplane_xml_version = freeplane 1.8.0
+git revision = c0f8e0a807580c46dcdcc9c3482e80953c378952 Dimitry Polivaev 2020-10-31T18:08:43Z
+java_version = 11.0.8; os_name = Linux; os_version = 5.9.11-3-MANJARO
+
+(java:209894): Gtk-WARNING **: 17:54:23.478: Theme parsing error: gtk.css:2:33: Failed to import: Error opening file /home/ivaneh/.config/gtk-3.0/window_decorations.css: No such file or directory
+
+(java:209894): Gtk-WARNING **: 17:54:23.833: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(java:209894): Gtk-WARNING **: 17:54:23.833: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(java:209894): Gtk-WARNING **: 17:54:23.833: Theme parsing error: gtk.css:71:36: The style property GtkCheckMenuItem:indicator-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(java:209894): Gtk-WARNING **: 17:54:23.833: Theme parsing error: gtk.css:76:30: The style property GtkExpander:expander-size is deprecated and shouldn't be used anymore. It will be removed in a future version
+Dec 25, 2020 5:54:24 PM org.freeplane.core.util.LogUtils info
+INFO: added parsing support for standard date format M/d/yy
+Dec 25, 2020 5:54:24 PM org.freeplane.core.util.LogUtils info
+INFO: added parsing support for standard date time format M/d/yy, h:mm a
+Dec 25, 2020 5:54:24 PM org.freeplane.core.util.LogUtils info
+INFO: available locales not found
+Dec 25, 2020 5:54:24 PM org.freeplane.core.util.LogUtils info
+INFO: available locales not found
+Dec 25, 2020 5:54:25 PM org.freeplane.core.util.LogUtils info
+INFO: Loaded properties from bundle://2:1/org/freeplane/plugin/formula/defaults.properties
+Dec 25, 2020 5:54:26 PM org.freeplane.core.util.LogUtils info
+INFO: extending script's classpath by [/home/ivaneh/.config/freeplane/1.8.x/compiledscripts, /home/ivaneh/.config/freeplane/1.8.x/lib]
+Dec 25, 2020 5:54:26 PM org.freeplane.core.util.LogUtils info
+INFO: Loaded properties from bundle://6:1/org/freeplane/plugin/script/defaults.properties
+Dec 25, 2020 5:54:26 PM org.freeplane.core.util.LogUtils info
+INFO: Loaded properties from bundle://6:1/org/freeplane/plugin/script/defaults.properties
+Dec 25, 2020 5:54:26 PM org.freeplane.core.util.LogUtils info
+INFO: looking for scripts with the following endings: [groovy, js]
+Framework launched
+Dec 25, 2020 5:54:26 PM org.freeplane.core.util.LogUtils info
+INFO: requesting mode: MindMap
+Dec 25, 2020 5:54:29 PM org.freeplane.core.util.LogUtils info
+INFO: menu items to execute: []
+Dec 25, 2020 5:54:58 PM org.freeplane.core.util.LogUtils info
+INFO: checking for updates of 0 add-ons

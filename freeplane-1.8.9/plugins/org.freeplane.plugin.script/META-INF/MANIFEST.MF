@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1604167744705
+Bundle-Activator: org.freeplane.plugin.script.Activator
+Bundle-ClassPath: .,lib/plugin-1.8.9.jar,lib/groovy-dateutil-3.0.1.jar
+ ,lib/ivy-2.5.0.jar,lib/groovy-groovysh-3.0.1.jar,lib/groovy-console-3
+ .0.1.jar,lib/groovy-datetime-3.0.1.jar,lib/groovy-jmx-3.0.1.jar,lib/g
+ roovy-json-3.0.1.jar,lib/groovy-jsr223-3.0.1.jar,lib/groovy-macro-3.0
+ .1.jar,lib/groovy-nio-3.0.1.jar,lib/groovy-servlet-3.0.1.jar,lib/groo
+ vy-sql-3.0.1.jar,lib/groovy-swing-3.0.1.jar,lib/groovy-templates-3.0.
+ 1.jar,lib/groovy-xml-3.0.1.jar,lib/groovy-3.0.1.jar,lib/jline-2.14.6.
+ jar
+Bundle-ManifestVersion: 2
+Bundle-Name: org.freeplane.plugin.script
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-SymbolicName: org.freeplane.plugin.script
+Bundle-Vendor: Freeplane Project
+Bundle-Version: 1.8.9
+Created-By: 1.8.0_191 (Oracle Corporation)
+Export-Package: org.freeplane.plugin.script;uses:="org.freeplane.plugi
+ n.script.dependencies,org.freeplane.plugin.script.proxy";version="1.8
+ .9",org.freeplane.plugin.script.addons;uses:="org.freeplane.plugin.sc
+ ript";version="1.8.9",org.freeplane.plugin.script.dependencies;versio
+ n="1.8.9",org.freeplane.plugin.script.filter;version="1.8.9",org.free
+ plane.plugin.script.proxy;uses:="org.freeplane.plugin.script,org.free
+ plane.plugin.script.dependencies";version="1.8.9"
+Import-Package: jsyntaxpane.actions;version="[1.8,2)"
+Private-Package: groovy.runtime.metaclass.groovy.grape,groovy.runtime.
+ metaclass.java.lang,org.freeplane.plugin.script.help
+Require-Bundle: org.freeplane.core
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.0.0.202001221519
+

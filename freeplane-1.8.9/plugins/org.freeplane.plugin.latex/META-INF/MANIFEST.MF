@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1604167747240
+Bundle-Activator: org.freeplane.plugin.latex.Activator
+Bundle-ClassPath: .,lib/plugin-1.8.9.jar,lib/jlatexmath-1.0.7.jar,lib/
+ jlatexmath-font-greek-1.0.7.jar,lib/jlatexmath-font-cyrillic-1.0.7.ja
+ r
+Bundle-ManifestVersion: 2
+Bundle-Name: org.freeplane.plugin.latex
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-SymbolicName: org.freeplane.plugin.latex
+Bundle-Vendor: Freeplane Project
+Bundle-Version: 1.8.9
+Created-By: 1.8.0_191 (Oracle Corporation)
+Private-Package: org.freeplane.plugin.latex
+Require-Bundle: org.freeplane.core
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.0.0.202001221519
+
