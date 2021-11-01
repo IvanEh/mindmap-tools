@@ -1,0 +1,107 @@
+STDOUT: Jan 29, 2021 8:38:25 PM org.freeplane.core.util.LogUtils info
+INFO: freeplane_version = 1.8.9; freeplane_xml_version = freeplane 1.8.0
+git revision = c0f8e0a807580c46dcdcc9c3482e80953c378952 Dimitry Polivaev 2020-10-31T18:08:43Z
+java_version = 11.0.8; os_name = Linux; os_version = 5.9.11-3-MANJARO
+STDOUT: Jan 29, 2021 8:38:27 PM org.freeplane.core.util.LogUtils info
+INFO: added parsing support for standard date format M/d/yy
+STDOUT: Jan 29, 2021 8:38:27 PM org.freeplane.core.util.LogUtils info
+INFO: added parsing support for standard date time format M/d/yy, h:mm a
+STDOUT: Jan 29, 2021 8:38:28 PM org.freeplane.core.util.LogUtils info
+INFO: available locales not found
+STDOUT: Jan 29, 2021 8:38:28 PM org.freeplane.core.util.LogUtils info
+INFO: available locales not found
+STDOUT: Jan 29, 2021 8:38:32 PM org.freeplane.core.util.LogUtils info
+INFO: Loaded properties from bundle://2:1/org/freeplane/plugin/formula/defaults.properties
+STDOUT: Jan 29, 2021 8:38:32 PM org.freeplane.core.util.LogUtils info
+INFO: extending script's classpath by [/home/ivaneh/.config/freeplane/1.8.x/compiledscripts, /home/ivaneh/.config/freeplane/1.8.x/lib]
+STDOUT: Jan 29, 2021 8:38:32 PM org.freeplane.core.util.LogUtils info
+INFO: Loaded properties from bundle://6:1/org/freeplane/plugin/script/defaults.properties
+STDOUT: Jan 29, 2021 8:38:32 PM org.freeplane.core.util.LogUtils info
+INFO: Loaded properties from bundle://6:1/org/freeplane/plugin/script/defaults.properties
+STDOUT: Jan 29, 2021 8:38:32 PM org.freeplane.core.util.LogUtils info
+INFO: looking for scripts with the following endings: [groovy, js]
+STDOUT: Framework launched
+STDOUT: Jan 29, 2021 8:38:34 PM org.freeplane.core.util.LogUtils info
+INFO: requesting mode: MindMap
+STDOUT: Jan 29, 2021 8:38:46 PM org.freeplane.core.util.LogUtils info
+INFO: menu items to execute: []
+STDOUT: Jan 29, 2021 8:39:08 PM org.freeplane.core.util.LogUtils info
+INFO: checking for updates of 0 add-ons
+STDOUT: message: No such property: of for class: Script1
+STDOUT: Line number: -1
+STDOUT: Jan 29, 2021 8:39:27 PM org.freeplane.core.util.LogUtils warn
+WARNING: Error on evaluating formula in map file:/home/ivaneh/Anki/Anki.mm, node ID_1440931367,
+Script 'prob of allele P(A)'
+org.freeplane.plugin.script.ExecuteScriptException: No such property: of for class: Script1 at line -1
+	at org.freeplane.plugin.script.GroovyScript.handleScriptRuntimeException(GroovyScript.java:244)
+	at org.freeplane.plugin.script.GroovyScript.execute(GroovyScript.java:123)
+	at org.freeplane.plugin.script.ScriptRunner.execute(ScriptRunner.java:56)
+	at org.freeplane.plugin.script.ScriptingEngine.executeScript(ScriptingEngine.java:131)
+	at org.freeplane.plugin.script.FormulaUtils.evaluateCheckingForCyclesAndNonNullResult(FormulaUtils.java:132)
+	at org.freeplane.plugin.script.FormulaUtils.evaluateLoggingExceptions(FormulaUtils.java:104)
+	at org.freeplane.plugin.script.FormulaUtils.executeScript(FormulaUtils.java:86)
+	at org.freeplane.plugin.script.FormulaUtils.evalIfScript(FormulaUtils.java:27)
+	at org.freeplane.plugin.formula.FormulaTextTransformer.transformContent(FormulaTextTransformer.java:53)
+	at org.freeplane.features.text.mindmapmode.ConditionalContentTransformer.transformContent(ConditionalContentTransformer.java:60)
+	at org.freeplane.features.text.TextController.getTransformedObject(TextController.java:148)
+	at org.freeplane.features.text.TextController.getTransformedObjectNoFormattingNoThrow(TextController.java:194)
+	at org.freeplane.features.text.NodeTextConditionController.transformedObject(NodeTextConditionController.java:217)
+	at org.freeplane.features.text.NodeTextConditionController.getItemForComparison(NodeTextConditionController.java:193)
+	at org.freeplane.features.text.NodeTextConditionController.getItemsForComparison(NodeTextConditionController.java:182)
+	at org.freeplane.features.text.NodeContainsCondition.checkNode(NodeContainsCondition.java:64)
+	at org.freeplane.features.filter.FilterController.findNext(FilterController.java:832)
+	at org.freeplane.features.filter.QuickFindAction.executeAction(QuickFindAction.java:75)
+	at org.freeplane.features.filter.FilterController$2.actionPerformed(FilterController.java:294)
+	at java.desktop/javax.swing.JTextField.fireActionPerformed(JTextField.java:508)
+	at java.desktop/javax.swing.JTextField.postActionEvent(JTextField.java:723)
+	at java.desktop/javax.swing.JTextField$NotifyAction.actionPerformed(JTextField.java:839)
+	at java.desktop/javax.swing.SwingUtilities.notifyAction(SwingUtilities.java:1810)
+	at java.desktop/javax.swing.JComponent.processKeyBinding(JComponent.java:2900)
+	at java.desktop/javax.swing.JComponent.processKeyBindings(JComponent.java:2948)
+	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2862)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6412)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1950)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:870)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1139)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1009)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:835)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4892)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: groovy.lang.MissingPropertyException: No such property: of for class: Script1
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:65)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:341)
+	at Script1.run(Script1.groovy:1)
+	at org.freeplane.plugin.script.GroovyScript.execute(GroovyScript.java:116)
+	... 55 more
+STDOUT: Jan 29, 2021 8:39:27 PM org.freeplane.core.util.LogUtils warn
+WARNING: org.freeplane.plugin.script.ExecuteScriptException: No such property: of for class: Script1 at line -1
+STDOUT: Jan 29, 2021 8:39:34 PM org.freeplane.core.util.LogUtils warn
+WARNING: org.freeplane.plugin.script.ExecuteScriptException: No such property: of for class: Script1 at line -1
+STDOUT: Jan 29, 2021 8:39:36 PM org.freeplane.core.util.LogUtils warn
+WARNING: org.freeplane.plugin.script.ExecuteScriptException: No such property: of for class: Script1 at line -1
+STDOUT: Jan 29, 2021 8:39:39 PM org.freeplane.core.util.LogUtils warn
+WARNING: org.freeplane.plugin.script.ExecuteScriptException: No such property: of for class: Script1 at line -1
